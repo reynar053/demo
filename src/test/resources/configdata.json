@@ -1,0 +1,24 @@
+{
+  "Config": {
+    "EXPLICIT_WAIT_TIME": 7,
+    "IMPLICIT_WAIT_TIME": 3,
+    "URL": "https://demoqa.com/",
+    "RANDOM_STRING_LENGTH": 18
+  },
+  "Driver capabilities": {
+    "DRIVER_TO_USE": "FIREFOX",
+    "CHROME_OPTIONS": [
+      "--incognito",
+      "--lang=en"
+    ],
+    "FIREFOX_OPTIONS": [
+      "-private"
+    ],
+    "EDGE_OPTIONS": [
+      "-inprivate"
+    ],
+    "IE_OPTIONS": [
+      "--incognito"
+    ]
+  }
+}
