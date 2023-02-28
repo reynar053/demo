@@ -1,0 +1,22 @@
+#Data source
+hibernate.driver_class=
+hibernate.connection.url=
+hibernate.connection.username=
+hibernate.connection.password=
+
+#Hibernate properties
+hibernate.dialect=
+
+#Test data
+tc.project.name=
+tc.url=
+tc.expected.user.email=
+
+#Author data
+tc.author.name=
+tc.author.login=
+tc.author.email=
+
+#Config
+tc.browser.name=
+tc.env.varname=COMPUTERNAME

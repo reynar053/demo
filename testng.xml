@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" name="/api-getpost">
+<suite name="Practice Suite">
+
+    <test name="Getting user by ID" >
         <classes>
-            <class name="org.example.ApiTest"/>
+            <class name="com.crudtask.ShouldAddTestResultToDB" />
         </classes>
     </test>
+
+    <test name="Processing of test data">
+        <classes>
+            <class name="com.crudtask.ShouldGetUpdateAndDeleteBatchOfTests"/>
+        </classes>
+    </test>
+
 </suite>
