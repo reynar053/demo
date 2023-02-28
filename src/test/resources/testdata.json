@@ -1,20 +1,70 @@
-[
-  {
-    "User Number": "1",
-    "First Name": "Jon",
-    "Last Name": "Snow",
-    "Email": "knownothing@gmail.com",
-    "Age": 30,
-    "Salary": 3000,
-    "Department": "alpha"
+{
+  "apiOauth": {
+    "version": "5.131"
   },
-  {
-    "User Number": "2",
-    "First Name": "Buttercup",
-    "Last Name": "Cumbersnatch",
-    "Email": "BudapestCandygram@mail.io",
-    "Age": 41,
-    "Salary": 2000,
-    "Department": "beta"
+  "apiUri": "https://api.vk.com/method/",
+  "apiEndpoints": {
+    "newPost": {
+      "url": "wall.post/",
+      "parameters": {
+        "postText":"message"
+      }
+    },
+    "editPost": {
+      "url": "wall.edit/",
+      "parameters": {
+        "postId": "post_id",
+        "postText": "message",
+        "attachments": "attachments"
+      }
+    },
+    "getUserInfo": {
+      "url": "account.getProfileInfo"
+    },
+    "savePhotos": {
+      "url": "photos.save/",
+      "parameters": {
+        "targetAlbumId": "album_id"
+      }
+    },
+    "getUploadServer": {
+      "url": "photos.getUploadServer/",
+      "parameters": {
+        "targetAlbumId": "album_id"
+      }
+    },
+    "getAlbums": {
+      "url": "photos.getAlbums/"
+    },
+    "uploadPhotoOnVkServer": {
+      "url": "",
+      "parameters": {
+        "targetAlbumId": "album_id"
+      }
+    },
+    "addComment": {
+      "url": "wall.createComment/",
+      "parameters": {
+        "postId": "post_id",
+        "ownerId": "owner_id",
+        "commentText": "message"
+      }
+    },
+    "getUser": {
+      "url": "users.get/"
+    },
+    "getPostById": {
+      "url": "wall.getById",
+      "parameters": {
+        "postList": "posts"
+      }
+    },
+    "postDeletion": {
+      "url": "wall.delete",
+      "parameters": {
+        "postId": "post_id",
+        "ownerId": "owner_id"
+      }
+    }
   }
-]
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://vk.com/",
+  "randomStringsLength" : 12,
+  "imageToBeUploaded" : "src/test/resources/cat.jpg"
+}
