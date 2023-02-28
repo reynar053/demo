@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" name="D:/Repo/EPAM/a1qa-level-two/testingvkapi">
-        <packages>
-            <package name="com.a1qa.*"/>
-        </packages>
+    <test verbose="2" name="/api-getpost">
+        <classes>
+            <class name="org.example.ApiTest"/>
+        </classes>
     </test>
 </suite>
